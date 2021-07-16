@@ -46,7 +46,7 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_amount\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"_sender\",\"type\":\"address\"}],\"name\":\"deposit\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getContractBalance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_user\",\"type\":\"address\"}],\"name\":\"withdraw\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/eric/dev/alyra/project/bet-no-loss/contracts/DefiInterface.sol\":\"DefiInterface\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/eric/dev/alyra/project/bet-no-loss/contracts/DefiInterface.sol\":{\"keccak256\":\"0x2a274c3a130e4165c9160e38648bf0456c978bdf7dbc34621f26ff37268897ae\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://206d4d0bd2f74b8ba3d097011ca074efdbdf1e95b13c9cb234a26bbd1232ea9c\",\"dweb:/ipfs/QmXJfuoRXNrvdAAzBoxA3gQRekXyCY8oyTrfMJyftkxh89\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_amount\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"_sender\",\"type\":\"address\"}],\"name\":\"deposit\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getContractBalance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_user\",\"type\":\"address\"}],\"name\":\"withdraw\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/eric/dev/alyra/project/betting-app/contracts/DefiInterface.sol\":\"DefiInterface\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/eric/dev/alyra/project/betting-app/contracts/DefiInterface.sol\":{\"keccak256\":\"0x2a274c3a130e4165c9160e38648bf0456c978bdf7dbc34621f26ff37268897ae\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://206d4d0bd2f74b8ba3d097011ca074efdbdf1e95b13c9cb234a26bbd1232ea9c\",\"dweb:/ipfs/QmXJfuoRXNrvdAAzBoxA3gQRekXyCY8oyTrfMJyftkxh89\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "immutableReferences": {},
@@ -55,9 +55,9 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.4;\n\ninterface DefiInterface {\n\n    function deposit(uint _amount, address _sender) \n        external payable;\n\n    function withdraw(address _user)\n        external payable;\n\n    function getContractBalance()\n        external view\n        returns (uint256);\n \n}\n",
-  "sourcePath": "/Users/eric/dev/alyra/project/bet-no-loss/contracts/DefiInterface.sol",
+  "sourcePath": "/Users/eric/dev/alyra/project/betting-app/contracts/DefiInterface.sol",
   "ast": {
-    "absolutePath": "/Users/eric/dev/alyra/project/bet-no-loss/contracts/DefiInterface.sol",
+    "absolutePath": "/Users/eric/dev/alyra/project/betting-app/contracts/DefiInterface.sol",
     "exportedSymbols": {
       "DefiInterface": [
         1881
@@ -295,7 +295,7 @@
     "src": "32:283:4"
   },
   "legacyAST": {
-    "absolutePath": "/Users/eric/dev/alyra/project/bet-no-loss/contracts/DefiInterface.sol",
+    "absolutePath": "/Users/eric/dev/alyra/project/betting-app/contracts/DefiInterface.sol",
     "exportedSymbols": {
       "DefiInterface": [
         1881

@@ -18,7 +18,7 @@ import "./OracleInterface.sol";
  *
  * @notice Takes bets and handles payouts for sport events
  * @title  a Smart-Contract in charge of handling bets on a sport event outcome where players do not loose their stake and winners earn the interests accrued on the stakes.
- * @author Tanteli, block74 
+ * @author Soft2dev 
  */
 contract Bet is Ownable, ReentrancyGuard {
 

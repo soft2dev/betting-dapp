@@ -1,5 +1,5 @@
 {
-  "name": "bet-no-loss",
+  "name": "betting-app",
   "version": "1.0.0",
   "description": "",
   "main": "truffle-config.js",
@@ -21,8 +21,7 @@
     "watch": "watch 'npm run test' contracts test"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bet-no-loss/bet-no-loss.git"
+    "type": "git"
   },
   "private": true,
   "keywords": [
@@ -48,9 +47,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bet-no-loss/bet-no-loss/issues"
+    "url": "https://github.com/betting-app/betting-app/issues"
   },
-  "homepage": "https://github.com/bet-no-loss/bet-no-loss#readme",
+  "homepage": "https://github.com/betting-app/betting-app#readme",
   "devDependencies": {
     "@codechecks/client": "^0.1.10",
     "@openzeppelin/test-helpers": "^0.5.11",
